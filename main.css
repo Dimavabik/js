@@ -1,0 +1,41 @@
+
+.text {
+    margin: 10px 0;
+    height: 150px;
+    background: salmon;
+}
+
+.rules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rules div {
+    padding: 30px;
+    margin: 20px;
+    background: salmon;
+}
+
+.text {
+    width: 25%;
+    margin: 25px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product.line .text{
+    width: 100%;
+}
+
+.red{
+    background: #163a3f;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
